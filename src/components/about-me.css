@@ -1,0 +1,136 @@
+.container-am {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+}
+
+.container-am-border {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background: url('./videos/7SYH.gif');
+    border-style: solid;
+    border-color: rgb(255, 165, 0);
+    border-width: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    box-shadow: 0px 50px 50px rgb(105, 63, 0);
+}
+
+#about-me-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: rgb(255, 165, 0);
+    margin-top: 25px;
+}
+
+#about_me_desc {
+    font-size: 1.5rem;
+    color: white;
+    text-align: justify;
+    max-width: 80%;
+    align-self: center;
+    font-family: 'Kanit', sans-serif;
+    z-index: 2;
+    padding: 20px;
+    border: 5px solid rgb(255, 165, 0);
+    background: linear-gradient(45deg, rgb(39, 25, 0), rgb(0, 22, 37));
+}
+
+.horizontal_container-am {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.text_container-am {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 60%;
+    box-sizing: border-box;
+}
+
+.carousel-am-bg {
+    position: absolute;
+    top: 56.5%;
+    left: 39.8%;
+    width: 50%;
+    height: 35%;
+    z-index: 2;
+    background-color: rgba(255, 165, 0, 1);
+    /* clip-path: polygon(
+        27.5% 0, 
+        100% 0, 
+        72.5% 100%, 
+        0 100%
+    ); */
+}
+
+.carousel-am-content {
+    display: flex;
+    margin: auto;
+    align-self: center;
+    box-sizing: border-box;
+    z-index: 2;
+    /* clip-path: polygon(
+        27.5% 0, 
+        100% 0, 
+        72.5% 100%, 
+        0 100%
+    ); */
+}
+
+.carousel-image {
+    width: 30vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 5px solid rgb(255, 165, 0)
+    /* clip-path: polygon(
+        32.5% 0, 
+        100% 0, 
+        67.5% 100%, 
+        0 100%
+    ); */
+}
+
+button.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+
+button.slick-prev:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+
+@media (max-width: 820px) {
+    #about_me_desc {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+    #about_me_desc {
+        font-size: 0.7rem;
+    }
+}

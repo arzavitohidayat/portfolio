@@ -1,0 +1,84 @@
+.container-proficiency {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.container-proficiency-border {
+    position: absolute;
+    left: 10%;
+    width: 75%;
+    height: 100%;
+    background: url('./videos/grid.gif');
+    border-style: solid;
+    border-color: rgb(255, 165, 0);
+    border-width: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    box-shadow: 0px 50px 50px rgb(105, 63, 0);
+}
+
+
+#proficiency-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: rgb(255, 165, 0);
+    margin-top: 25px;
+}
+
+.coding_languages_row_1, .coding_languages_row_2 {
+    display: flex;
+    justify-content: space-around;
+    z-index: 3;
+    margin-bottom: 25vh;
+}
+
+.coding_languages_boxes {
+    height: 20vh;
+    width: 20vw;
+    z-index: 3;
+    border: 5px solid rgb(255, 165, 0);
+    background: linear-gradient(45deg, rgb(39, 25, 0), rgb(0, 22, 37));
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+
+.coding_languages_boxes img {
+    align-self: center;
+    width: 20vw;
+    height: 20vh;
+}
+
+#coding_language-title {
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-shadow: 0px 0px 3px rgb(255, 216, 142);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 165, 0);
+    outline: 5px solid rgb(255, 165, 0);
+}
+
+@media (max-width: 1780px) {
+    #coding_language-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    #coding_language-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    #coding_language-title {
+        font-size: 1rem;
+    }
+}

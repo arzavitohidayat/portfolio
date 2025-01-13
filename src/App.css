@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 25, 25, 1);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.main-menu {
+  display: flex; /* Display buttons side by side */
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Space between the buttons */
+  margin: 0 auto;
+  margin-top: 20px; /* Add some spacing above the buttons */
+  z-index: 10; /* Ensure buttons stay on top of content */
+}
+
+.button {
+  padding: 30px 40px; /* Increase padding to make the buttons taller */
+  background-color: rgb(51, 152, 219); /* Default gradient */
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  transition: width 0.3s ease, padding 0.3s ease, background-color 0.3s ease;
+  width: 10vw; /* Initial width */
+  height: 97.5vh; /* Set a fixed height to make the buttons taller */
+  overflow: hidden;
+  position: relative; /* Make the button a reference point for text */
+}
+
+.button-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.button.active {
+  background-color: rgb(255, 165, 0); /* Change the gradient to orange */
+}
+
+.button.active span {
+  background-color: rgb(255, 165, 0); /* Make sure text area is transparent */
+  color: black;
+  text-shadow: 0px 0px 3px rgb(255, 216, 142);
+}
+
+.button:hover {
+  width: 12vw; /* Increase width on hover */
+  padding: 30px 50px; /* Adjust padding to match width expansion */
+}
+
+.button span {
+  width: 100%;
+  position: absolute; /* Position the text within the button */
+  top: 0; /* Position the text near the top side of the parallelogram */
+  left: 0;
+  font-size: 1.25rem; /* Slightly larger font size */
+  opacity: 1; /* Always visible text */
+  text-align: center; /* Center the text */
+  font-weight: bold;
+  text-shadow: 0px 0px 3px white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: rgb(51, 152, 219); /* Make sure text area is transparent */
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOutToBottom {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.content {
+  position: absolute; /* Position the content */
+  top: 108vh;
+  left: 0;
+  right: 0;
+  z-index: 20; /* Ensure the content appears above the buttons */
+  transition: opacity 0.3s ease;
+}
+
+.content > * {
+  margin: 20px 0;
+  animation: slideInFromBottom 0.5s ease forwards; /* Default animation for slide in */
+}
+
+.content.slide-out > * {
+  animation: slideOutToBottom 0.5s ease forwards; /* Animation for slide out */
+}
+
+@media (max-width: 1450px) {
+  .button span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .button span {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-height: 600px) {
+  .content {
+    top: 110vh;
+  }
+}
+
+@media (max-height: 470px) {
+  .content {
+    top: 112.5vh;
+  }
+}
+
+@media (max-height: 300px) {
+  .content {
+    top: 120vh;
+  }
+}
