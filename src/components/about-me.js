@@ -15,11 +15,9 @@ const About_me = () => {
             </div>
             <div className="text_container-am">
                 <div id="about_me_desc">
-                    My name is Arza Vito Hidayat. My fascination with technology and visually appealing craftworks has led me to enroll in
-                    Multimedia Nusantara University, stepping into the Bachelor's degree of Computer Science with a GPA of 3.66.
-                    In Computer Science, I am particularly keen on the front-end side of things, that is to abstract the inner workings
-                    of a system so that users can use said system with ease. This however doesn't mean I'm not open to flexibility in job description.
-                    Beyond Human-Computer Interaction, I'm also open to learn more and how to do better than ever.
+                As a Computer Science/Informatics student at Multimedia Nusantara University, I have experience in both Front-End and Back-End development, though Front-End is my stronger suit.
+                Throughout the years of me being a student, I have also learned many programming languages, such as HTML, CSS, C, React, and More.
+                Additionally, I'm particularly passionate when it comes to game development.
                 </div>
             </div>
         </div>
