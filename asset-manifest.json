@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b738e7fe.css",
+    "main.js": "/portfolio/static/js/main.ff0431f0.js",
+    "static/media/grid.gif": "/portfolio/static/media/grid.2dc55141755b33edaab6.gif",
+    "static/media/7SYH.gif": "/portfolio/static/media/7SYH.c5fb4fab7ed684c4667b.gif",
+    "static/media/isyaratku-1.png": "/portfolio/static/media/isyaratku-1.86b9f1ace3a1c5d81a49.png",
+    "static/media/ghost-man-1.png": "/portfolio/static/media/ghost-man-1.12e98ddfd700da8f36d2.png",
+    "static/media/code-expo-genshin.jpg": "/portfolio/static/media/code-expo-genshin.2b3b2a2f91a8a552ed1d.jpg",
+    "static/media/study-planner-1.png": "/portfolio/static/media/study-planner-1.d5c28ac48b5fedf75c2a.png",
+    "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.6e1b18670fcd2b2aa9c3.jpg",
+    "static/media/python-introduction.jpg": "/portfolio/static/media/python-introduction.95ab37ca157601f19ba8.jpg",
+    "static/media/python-intermediate.jpg": "/portfolio/static/media/python-intermediate.aa1dddb95860a218b9e9.jpg",
+    "static/media/python-logo.png": "/portfolio/static/media/python-logo.0aeee87244bb9716fa21.png",
+    "static/media/react-logo.png": "/portfolio/static/media/react-logo.8a562d2313c3ffc0e97c.png",
+    "static/media/unity-logo.png": "/portfolio/static/media/unity-logo.e07ca7f890aed054f96d.png",
+    "index.html": "/portfolio/index.html",
+    "main.b738e7fe.css.map": "/portfolio/static/css/main.b738e7fe.css.map",
+    "main.ff0431f0.js.map": "/portfolio/static/js/main.ff0431f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b738e7fe.css",
+    "static/js/main.ff0431f0.js"
+  ]
+}
