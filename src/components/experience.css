@@ -53,17 +53,15 @@
 }
 
 .left-side-exp {
-    flex: 0 0 30%; /* Still 40% of the parent container */
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers the image horizontally */
     align-items: center; /* Centers the image vertically */
     box-sizing: border-box; /* Ensure padding doesn't mess with layout */
-    background: linear-gradient(45deg, rgb(39, 25, 0), rgb(0, 22, 37));
+    /*background: linear-gradient(45deg, rgb(39, 25, 0), rgb(0, 22, 37));*/
 }
 
 
 .right-side-exp {
-    flex: 0 0 70%; /* Take up 60% of the container's width */
     display: flex;
     flex-direction: column; /* Stack content vertically */
     justify-content: center; /* Adjust vertical alignment if needed */

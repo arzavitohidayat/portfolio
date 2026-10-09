@@ -16,8 +16,8 @@ function App() {
   const handleButtonClick = (section) => {
     if (section === activeSection) return; // Do nothing if the same section is clicked
     setIsExiting(true); // Trigger exit animation
+    setActiveSection(section); // Switch section after exit animation
     setTimeout(() => {
-      setActiveSection(section); // Switch section after exit animation
       setTempSection(section); // Update temp section for the animation
       setIsExiting(false); // Reset exit state
     }, 500); // Matches animation duration
