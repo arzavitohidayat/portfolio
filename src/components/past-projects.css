@@ -12,12 +12,13 @@
     position: absolute;
     width: 75%;
     height: 100%;
-    background: url('./videos/7SYH.gif');
+    background: url('./videos/grid-blue.gif');
     border-style: solid;
     border-color: rgb(255, 165, 0);
     border-width: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     box-shadow: 0px 50px 50px rgb(105, 63, 0);
     z-index: 2;
 }
@@ -113,6 +114,68 @@
     margin-right: 50px;
     box-shadow: 0px 0px 50px rgb(0, 67, 105);
 }
+
+
+/* Project title and resource links */
+.project-title-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+}
+
+.project-title-row #project_title {
+    margin: 0;
+}
+
+/* Group multiple resource icons together */
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Clickable logo buttons */
+.project-icon-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 89px;
+    box-sizing: border-box;
+    padding: 20px;
+
+    background-color: rgb(255, 165, 0); /* Set the background color */
+
+    box-shadow: 0px 0px 12px rgba(105, 63, 0, 0.65);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+/* Keep each logo inside its button */
+.project-icon-link img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Hover and keyboard focus effects */
+.project-icon-link:hover,
+.project-icon-link:focus-visible {
+    background: rgb(70, 45, 0);
+    outline: none;
+}
+
+.project-icon-link:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
 
 .vertical_container-pp::-webkit-scrollbar-track {
     background: linear-gradient(45deg, rgb(39, 25, 0), rgb(0, 22, 37));

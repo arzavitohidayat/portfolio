@@ -15,9 +15,10 @@ const About_me = () => {
             </div>
             <div className="text_container-am">
                 <div id="about_me_desc">
-                As a Computer Science/Informatics student at Multimedia Nusantara University, I have experience in both Front-End and Back-End development, though Front-End is my stronger suit.
-                Throughout the years of me being a student, I have also learned many programming languages, such as HTML, CSS, C, React, and More.
-                Additionally, I'm particularly passionate when it comes to game development.
+                    I'm a Computer Science graduate from Universitas Multimedia Nusantara with a passion for understanding how games work behind the scenes.
+                    I enjoy exploring game mechanics through game modification and experimenting with game data to see how different changes affect gameplay.
+                    I've also built small games in Unity, including a 3D Pac-Man-inspired project.
+                    I'm eager to deepen my understanding of game systems, strengthen my programming skills, and eventually contribute to creating engaging gaming experiences as part of a professional team.
                 </div>
             </div>
         </div>

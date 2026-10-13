@@ -1,4 +1,3 @@
-import React from 'react';
 import './certificates.css'; // For custom styling (optional)
 import python_intro_image from './images/certificates/python-introduction.jpg';
 import python_inter_image from './images/certificates/python-intermediate.jpg';
@@ -15,7 +14,7 @@ const Certificates = () => {
         <div className="vertical_container-cert">
             <div className="certificate_horizontal_container-cert">
                 <div className="left-side-cert">
-                    <img src={python_intro_image} alt="certificate-1" className="certificate-image"></img>
+                    <img src={python_intro_image} alt="certificate-1" className="certificate-image"></img>    
                 </div>
                 <div className="right-side-cert">
                     <div className="certificate_texts-box">
@@ -64,7 +63,7 @@ const Certificates = () => {
                         <h1 id="certificate_title">IDS Education Gamedev Academy</h1>
                         <p id="certificate_description">
                             A certificate presented to participants who passed IDS's gamedev academy independent study program in 2025.
-                            This certificate was issued in ???, 2025.
+                            This certificate was issued in 2025.
                         </p>
                     </div>
                 </div>

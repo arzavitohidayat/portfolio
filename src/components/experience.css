@@ -12,14 +12,15 @@
     position: absolute;
     width: 75%;
     height: 100%;
-    background: url('./videos/7SYH.gif');
+    background: url('./videos/grid-grey.gif');
     border-style: solid;
     border-color: rgb(255, 165, 0);
     border-width: 5px;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 50px 50px rgb(105, 63, 0);
+    background-position: center;
     z-index: 2;
+    box-shadow: 0px 50px 50px rgb(105, 63, 0);
 }
 
 #past-experience-title {
@@ -47,9 +48,14 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start; /* Align items to the top of the row */
-    padding: 15px;
     width: 100%; /* Ensure it takes the full width of the parent container */
     z-index: 3;
+}
+
+.experience_horizontal_container-exp-middle-coming-soon {
+    position: absolute;
+    bottom: 150px;
+    width: 100%; /* Ensure it takes the full width of the parent container */
 }
 
 .left-side-exp {
@@ -78,6 +84,12 @@
 
 .experience_texts-box {
     display: block;
+}
+
+.experience_texts-box-middle {
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 #experience_title {

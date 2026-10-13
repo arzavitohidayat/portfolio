@@ -4,7 +4,13 @@ import './experience.css'; // For custom styling (optional)
 const Experience = () => {
   return (
     <div className="container-exp">
-        <div className="container-exp-border"></div>
+        <div className="container-exp-border">
+            <div className="experience_horizontal_container-exp-middle-coming-soon">
+                <div className="experience_texts-box-middle">
+                    <h1 id="experience_title">More to come!!</h1>
+                </div>
+            </div>
+        </div>
         <div id="past-experience-title"></div>
         <div className="vertical_container-exp">
             <div className="experience_horizontal_container-exp">

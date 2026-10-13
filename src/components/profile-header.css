@@ -1,12 +1,15 @@
 #hello, #hello_desc {
     margin: 0;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     text-align: start;  /* Center the text inside */
     width: 80%;
   }
 
 #hello {
+    margin-top: 20px;
     font-size: 4.5rem;
     text-align: center;
 }
@@ -17,6 +20,8 @@
 }
 
 .container-profile-header {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -40,6 +45,7 @@
 }
 
 .profile-image {
+    margin-top: 20px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -77,3 +83,40 @@
         font-size: 0.5rem;
     }
 }
+
+.chevron-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+.chevron {
+    width: 20px;
+    height: auto;
+    filter: brightness(0.5); /* Dimmed by default */
+    animation: illuminate-img 1.5s infinite ease-in-out;
+  }
+  
+  /* Keyframes for image illumination */
+  @keyframes illuminate-img {
+    0% {
+      filter: brightness(0.5);
+    }
+    50% {
+      filter: brightness(1.5); /* Brightened */
+    }
+    100% {
+      filter: brightness(0.5);
+    }
+  }
+  
+  /* Animation delays */
+  .chevron-1 {
+    animation-delay: 0s;
+  }
+  .chevron-2 {
+    animation-delay: 0.1s;
+  }
+  .chevron-3 {
+    animation-delay: 0.2s;
+  }
