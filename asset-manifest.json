@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dca614ba.css",
-    "main.js": "/portfolio/static/js/main.d93cbe32.js",
-    "static/media/grid.gif": "/portfolio/static/media/grid.2dc55141755b33edaab6.gif",
+    "main.css": "/portfolio/static/css/main.b2db0cf7.css",
+    "main.js": "/portfolio/static/js/main.728a720c.js",
+    "static/media/3FfWRv.gif": "/portfolio/static/media/3FfWRv.d99fc896f31680b2a38c.gif",
+    "static/media/grid.gif": "/portfolio/static/media/grid.2096345234175a7f1248.gif",
+    "static/media/grid-blue.gif": "/portfolio/static/media/grid-blue.8b0760ccad7238640c63.gif",
+    "static/media/grid-grey.gif": "/portfolio/static/media/grid-grey.67b2c76d3ef2496d4fd1.gif",
     "static/media/7SYH.gif": "/portfolio/static/media/7SYH.c5fb4fab7ed684c4667b.gif",
+    "static/media/toeic.jpg": "/portfolio/static/media/toeic.e77dedc6c0f4358c23d1.jpg",
     "static/media/isyaratku-1.png": "/portfolio/static/media/isyaratku-1.86b9f1ace3a1c5d81a49.png",
     "static/media/ghost-man-1.png": "/portfolio/static/media/ghost-man-1.12e98ddfd700da8f36d2.png",
     "static/media/code-expo-genshin.jpg": "/portfolio/static/media/code-expo-genshin.2b3b2a2f91a8a552ed1d.jpg",
+    "static/media/ids.jpg": "/portfolio/static/media/ids.1839d61796788ce5852f.jpg",
+    "static/media/unity-certified-programmer.jpg": "/portfolio/static/media/unity-certified-programmer.5063949b6e98554236be.jpg",
     "static/media/study-planner-1.png": "/portfolio/static/media/study-planner-1.d5c28ac48b5fedf75c2a.png",
     "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.6e1b18670fcd2b2aa9c3.jpg",
     "static/media/python-introduction.jpg": "/portfolio/static/media/python-introduction.95ab37ca157601f19ba8.jpg",
     "static/media/python-intermediate.jpg": "/portfolio/static/media/python-intermediate.aa1dddb95860a218b9e9.jpg",
+    "static/media/github.png": "/portfolio/static/media/github.7cc55a30083bdef04ff0.png",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.0aeee87244bb9716fa21.png",
     "static/media/react-logo.png": "/portfolio/static/media/react-logo.8a562d2313c3ffc0e97c.png",
-    "static/media/csharp-logo.png": "/portfolio/static/media/csharp-logo.b0428e43c9244c43ee71.png",
+    "static/media/google-drive.png": "/portfolio/static/media/google-drive.8df69dcdab94c6de10e1.png",
+    "static/media/figma.png": "/portfolio/static/media/figma.fc1608cc9fca36dbe72a.png",
+    "static/media/csharp-logo.png": "/portfolio/static/media/csharp-logo.bb5f357e3bb2e9520053.png",
     "static/media/unity-logo.png": "/portfolio/static/media/unity-logo.e07ca7f890aed054f96d.png",
     "index.html": "/portfolio/index.html",
-    "main.dca614ba.css.map": "/portfolio/static/css/main.dca614ba.css.map",
-    "main.d93cbe32.js.map": "/portfolio/static/js/main.d93cbe32.js.map"
+    "main.b2db0cf7.css.map": "/portfolio/static/css/main.b2db0cf7.css.map",
+    "main.728a720c.js.map": "/portfolio/static/js/main.728a720c.js.map"
   },
   "entrypoints": [
-    "static/css/main.dca614ba.css",
-    "static/js/main.d93cbe32.js"
+    "static/css/main.b2db0cf7.css",
+    "static/js/main.728a720c.js"
   ]
 }
